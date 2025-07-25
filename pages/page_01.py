@@ -12,7 +12,7 @@ st.markdown("# Streamlit is awesome !")
 query = st.text_input("Search a GIF")
 url = "https://api.giphy.com/v1/gifs/search"
 
-st.write(st.secrets)
+
 
 params = {"api_key": st.secrets['API_KEYS']['GIPHY'],
           "q": query,
